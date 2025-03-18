@@ -5,8 +5,8 @@
     "main": "dist/svecard.min.js",
     "types": "types/index.d.ts",
     "scripts": {
-        "dev": "cross-env NODE_ENV=development webpack serve",
-        "build": "cross-env NODE_ENV=production webpack --progress"
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "repository": {
         "type": "git",
