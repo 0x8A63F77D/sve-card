@@ -6,7 +6,8 @@
     "types": "types/index.d.ts",
     "scripts": {
         "dev": "cross-env NODE_ENV=development webpack serve",
-        "build": "cross-env NODE_ENV=production webpack --progress"
+        "build": "cross-env NODE_ENV=production webpack --progress",
+        "gh-pages": "cross-env NODE_ENV=development webpack --progress"
     },
     "repository": {
         "type": "git",
