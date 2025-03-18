@@ -5,19 +5,19 @@
     "main": "dist/svecard.min.js",
     "types": "types/index.d.ts",
     "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "dev": "cross-env NODE_ENV=development webpack serve",
+        "build": "cross-env NODE_ENV=production webpack --progress"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/0x8A63F77D/sve-card.git"
+        "url": "git+https://github.com/Haoxuan8/sve-card.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/0x8A63F77D/sve-card/issues"
+        "url": "https://github.com/Haoxuan8/sve-card/issues"
     },
-    "homepage": "https://0x8A63F77D.github.io/sve-card",
+    "homepage": "https://github.com/Haoxuan8/sve-card#readme",
     "devDependencies": {
         "@babel/cli": "^7.21.0",
         "@babel/core": "^7.21.3",
