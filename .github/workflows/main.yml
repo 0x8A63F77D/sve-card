@@ -35,5 +35,5 @@ jobs:
       - name: 部署到 GitHub Pages  
         uses: JamesIves/github-pages-deploy-action@v4  
         with:  
-          folder: dist # 默认的 React 构建输出目录  
+          folder: examples # 默认的 React 构建输出目录  
           branch: gh-pages  # 部署的目标分支  
