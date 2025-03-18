@@ -20,14 +20,14 @@ jobs:
         uses: actions/setup-node@v3  
         with:  
           node-version: '18'  # 或者你项目使用的 Node.js 版本  
-          cache: 'npm'  # 或者 'yarn' 如果你使用 yarn  
+          cache: 'yarn'  # 或者 'yarn' 如果你使用 yarn  
 
       - name: 安装依赖  
-        run: npm ci  # 使用 npm ci 而不是 npm install 以确保一致性  
+        run: yarn  # 使用 npm ci 而不是 npm install 以确保一致性  
         # 如果使用 yarn，替换为: yarn install --frozen-lockfile  
 
       - name: 构建项目  
-        run: npm run build  
+        run: yarn dev
         # 如果使用 yarn，替换为: yarn build  
         env:  
           CI: false  # 防止将警告视为错误  
