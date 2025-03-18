@@ -27,7 +27,7 @@ jobs:
         # 如果使用 yarn，替换为: yarn install --frozen-lockfile  
 
       - name: 构建项目  
-        run: yarn build
+        run: yarn gh-pages
         # 如果使用 yarn，替换为: yarn build  
         env:  
           CI: false  # 防止将警告视为错误  
