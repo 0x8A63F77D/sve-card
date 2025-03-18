@@ -10,14 +10,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Haoxuan8/sve-card.git"
+        "url": "git+https://github.com/0x8A63F77D/sve-card.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Haoxuan8/sve-card/issues"
+        "url": "https://github.com/0x8A63F77D/sve-card/issues"
     },
-    "homepage": "https://github.com/Haoxuan8/sve-card#readme",
+    "homepage": "https://0x8A63F77D.github.io/sve-card",
     "devDependencies": {
         "@babel/cli": "^7.21.0",
         "@babel/core": "^7.21.3",
